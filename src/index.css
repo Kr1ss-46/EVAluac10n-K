@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-brand-pink: #FF8FAB;
+  --color-brand-pink-light: #FFD1DC;
+  --color-brand-pink-bg: #FFF5F8;
+  --color-brand-bg: #FDF6F9;
+  --color-brand-blue: #B2E2F2;
+  --color-brand-green: #C1E1C1;
+  --color-brand-yellow: #FFF9C4;
+}
+
+/* Custom kawaii pastel style additions */
+body {
+  background-color: #FDF6F9;
+  background-image: 
+    radial-gradient(#FFD1DC 1.5px, transparent 1.5px), 
+    radial-gradient(#B2E2F2 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  color: #374151;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5F8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD1DC;
+  border: 3px solid #FFF5F8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF8FAB;
+}

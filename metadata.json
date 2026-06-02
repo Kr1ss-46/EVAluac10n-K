@@ -1,0 +1,6 @@
+{
+  "name": "Evaluador Integral Docente",
+  "description": "Aplicación interactiva para que docentes de educación básica evalúen cuantitativa y cualitativamente a sus alumnos, con analíticas grupales, recomendaciones y exportación a Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
